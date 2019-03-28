@@ -43,5 +43,4 @@ class Artist
   #     return "Who the hell listens to Kanye anymore? Listen to #48 by Panda Bear."
   #   else
   #     return song
-  end
 end
