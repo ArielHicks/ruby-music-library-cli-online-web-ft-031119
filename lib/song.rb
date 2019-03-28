@@ -61,10 +61,10 @@ class Song
   end
 end
 
-def if_kanye
-  if song == "#{60}"
-    return "Who the hell listens to Kanye anymore? Listen to #48 by Panda Bear."
-  else
-    return song
-  end
+  def if_kanye
+    if song == "#{60}"
+      return "Who the hell listens to Kanye anymore? Listen to #48 by Panda Bear."
+    else
+      return song
+    end
 end
