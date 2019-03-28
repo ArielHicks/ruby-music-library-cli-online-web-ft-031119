@@ -37,11 +37,4 @@ class Artist
   def genres
     songs.collect{ |s| s.genre }.uniq
   end
-
-  def if_kanye
-    if song == "#{60}"
-      return "Who the hell listens to Kanye anymore? Listen to #48 by Panda Bear."
-    else
-      return song
-    end
 end
