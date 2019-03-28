@@ -67,3 +67,4 @@ def if_kanye
   else
     return song
   end
+end
